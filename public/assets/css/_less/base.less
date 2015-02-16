@@ -14,6 +14,7 @@ body {
     font-size: unit(@base-font-size, px);
     font-weight: @base-font-weight;
     line-height: @base-line-height;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -34,28 +35,28 @@ h3,
 .h3 {
     color: @h3-font-color;
     .font-size-rems(@h3-font-size);
-    font-weight: @bold-font-weight;
+    font-weight: normal;
 }
 
 h4,
 .h4 {
     color: @h4-font-color;
     .font-size-rems(@h4-font-size);
-    font-weight: @bold-font-weight;
+    font-weight: normal;
 }
 
 h5,
 .h5 {
     color: @h5-font-color;
     .font-size-rems(@h5-font-size);
-    font-weight: @bold-font-weight;
+    font-weight: normal;
 }
 
 h6,
 .h6 {
     color: @h6-font-color;
     .font-size-rems(@h6-font-size);
-    font-weight: @bold-font-weight;
+    font-weight: normal;
 }
 
 p {
@@ -74,7 +75,8 @@ a {
     }
 }
 
-strong {
+strong,
+.strong {
     font-weight: @bold-font-weight;
 }
 
